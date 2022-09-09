@@ -55,6 +55,12 @@ If you want to force the use of Gmail API:
   MMailApp.sendGmailApi(options);
  ```
  
+ ## More
+ More info and all the links that helped me are posted in this article:
+ 
+  * [Madium/MmailApp](https://max-makhrov.medium.com/mmailapp-for-google-apps-script-gmailapp-mailapp-gmail-api-804079828051)
+ 
+ 
  ## Author
 @max__makhrov
 
