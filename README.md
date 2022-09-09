@@ -29,7 +29,7 @@ function test_getMailApp() {
     // from: 'max0637859167@gmail.com', // for paid accounts + alias
     subject: '🥸Test Test Test',
     body: '💪 body!',
-    htmlBody: '<b>💪Bold Hello</b><br>How are you?'
+    htmlBody: '<b>💪Bold Hello</b><br>How are you?',
     noreply: 1,
     replyto: 'test@test.test',
     // replytoname: 'Maaan', // works for Gmail API
