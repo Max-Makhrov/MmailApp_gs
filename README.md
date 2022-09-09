@@ -52,3 +52,8 @@ If you want to force the use of Gmail API:
   // this will forse the use of Gmail API
   MMailApp.sendGmailApi(options);
  ```
+ 
+ ## Author
+@max__makhrov
+
+![CoolTables](https://raw.githubusercontent.com/cooltables/pics/main/logos/ct_logo_small.png) [cooltables.online](https://www.cooltables.online/)
