@@ -8,7 +8,7 @@ Library code is:
 
 ## Try
 
-Please see how it works in visual way:
+Please see how it works in a visual way:
 
 1. Copy [⚡ Automation Samples](https://docs.google.com/spreadsheets/d/1HwUaZk86BtrPdQ1RYILwTcRwJUUClgqtAPEpMAsX0y8/edit#gid=1396833470) project file. Go to menu `File > Make a Copy`.
 2. Change settings on the sheet: `_sendmail_`. 
