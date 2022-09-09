@@ -49,7 +49,10 @@ function send(options) {
   // get remaining quota
   var quota = getRemainingMailQuota_();
   if (quota <= settings.min_quota) {
-    console.log('Regular sendMail Quota is exceeded. Use Gmail API')
+    console.log('Regular sendMail Quota is exceeded. Use Gmail API');
+    if (typeof Gmail == 'undefined') {
+      throw '🧐you are out of your daily Quota. 👌Fix: Please enable Gmail API Advanced Service.'
+    }
     var res = sendGmailApi(options);
     return res;
   }
@@ -114,7 +117,7 @@ function getRemainingMailQuota_() {
 //     cc: 'max0637859167@gmail.com',
 //     bcc: 'max0637859167@gmail.com,makhrov.max@gmail.com',
 //     name: '🎩Mad Hatter',
-//     frommm: 'max0637859167@gmail.com', // works only if for paid accounts
+//     from: 'max0637859167@gmail.com', // works only if for paid accounts
 //     subject: '🥸Test Test Test',
 //     body: '💪 body!',
 //     htmlBody: test_blobs.htmlBody, // '<b>💪Bold Hello</b><br>How are you?'
@@ -213,7 +216,7 @@ function sendMail_(options) {
 //     cc: 'max0637859167@gmail.com',
 //     bcc: 'max0637859167@gmail.com,makhrov.max@gmail.com',
 //     name: '🎩Mad Hatter',
-//     frommm: 'max0637859167@gmail.com', // works only if for paid accounts
+//     from: 'max0637859167@gmail.com', // works only if for paid accounts
 //     subject: '🥸Test Test Test',
 //     body: '💪 body!',
 //     // htmlBody: test_blobs.htmlBody, // '<b>💪Bold Hello</b><br>How are you?'
