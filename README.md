@@ -6,6 +6,8 @@ Library code is:
 
 `1XHgOqNIXoRxmM7StfIoxxqTVNoEVNpO46UsSSZdXZI4fezxCRIpSYHtB` 🔗[Source](https://script.google.com/u/0/home/projects/1XHgOqNIXoRxmM7StfIoxxqTVNoEVNpO46UsSSZdXZI4fezxCRIpSYHtB/edit)
 
+If you would like to use `Gmail API`, please enable it as [advanced Google Service](https://developers.google.com/apps-script/guides/services/advanced).
+
 ## Try
 
 Please see how it works in a visual way:
