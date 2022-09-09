@@ -36,6 +36,19 @@ function test_getMailApp() {
     // attachments: array,
     // inlineimages: object
   }
-  var response = MmailApp.send(options);
+  try {
+    // try using MailApp, or GmailApp
+    var response = MmailApp.send(options);
+    console.log(response);
+  } catch(err) {
+    console.log(err);
+  }
 }
 ```
+
+If you want to force the use of Gmail API:
+
+ ```
+  // this will forse the use of Gmail API
+  MMailApp.sendGmailApi(options);
+ ```
