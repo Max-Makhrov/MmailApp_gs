@@ -40,7 +40,7 @@ function test_getMailApp() {
   }
   try {
     // try using MailApp, or GmailApp
-    var response = MmailApp.send(options);
+    var response = MMailApp.send(options);
     console.log(response);
   } catch(err) {
     console.log(err);
