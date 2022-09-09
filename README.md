@@ -1,5 +1,5 @@
 # MmailApp_gs
-Library for sending emails with Google Apps Script
+Library for sending emails with Google Apps Script. Use `MailApp`, `GmailApp` or `GmailAPI`. The library simpifies the usage of methods.
 
 ## Install
 Library code is:
